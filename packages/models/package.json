@@ -23,10 +23,6 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@protobuf-ts/plugin": "2.9.4",
-    "@protobuf-ts/protoc": "2.9.4",
-    "@protobuf-ts/runtime": "2.9.4",
-    "axios": "catalog:",
     "ts-pattern": "catalog:",
     "zod": "catalog:",
     "zod-validation-error": "catalog:",
@@ -34,11 +30,9 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
-    "mkdirp": "catalog:",
     "pagopa-interop-public-eslint-config": "workspace:*",
     "pagopa-interop-public-typescript-config": "workspace:*",
     "prettier": "catalog:",
-    "tsc-esm-fix": "catalog:",
     "typescript": "catalog:"
   }
 }

@@ -22,22 +22,16 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@aws-sdk/client-cloudfront": "3.922.0",
-    "axios": "catalog:",
     "dotenv-flow": "catalog:",
     "pagopa-interop-public-models": "workspace:*",
-    "pg": "catalog:",
-    "ts-pattern": "catalog:",
-    "zod": "catalog:",
-    "zod-validation-error": "catalog:"
+    "pg": "catalog:"
   },
   "devDependencies": {
     "@types/node": "catalog:",
     "@types/pg": "catalog:",
-    "mkdirp": "catalog:",
     "pagopa-interop-public-eslint-config": "workspace:*",
     "pagopa-interop-public-typescript-config": "workspace:*",
     "prettier": "catalog:",
-    "tsc-esm-fix": "catalog:",
     "tsx": "catalog:",
     "typescript": "catalog:"
   }
