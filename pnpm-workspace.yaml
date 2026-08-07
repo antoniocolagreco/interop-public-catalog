@@ -23,9 +23,12 @@ catalog:
 peerDependencyRules:
   allowedVersions:
     # design-react-kit -> reactstrap -> react-popper@2.3.0 declares peer
-    # react/react-dom <=18; workspace is on React 19.
-    react: '19'
-    react-dom: '19'
+    # react/react-dom <=18; workspace is on React 19. Scoped to react-popper
+    # only, so an unrelated future react-peer mismatch still fails loudly.
+    react-popper>react: '19'
+    react-popper>react-dom: '19'
     # @strapi/strapi -> @strapi/data-transfer -> typedoc@0.25.10 declares
-    # peer typescript 4.6.x-5.3.x; workspace is on typescript 5.9.3.
-    typescript: '5'
+    # peer typescript 4.6.x-5.3.x; workspace is on typescript 5.9.3. Scoped
+    # to typedoc only, so an unrelated future typescript-peer mismatch
+    # still fails loudly.
+    typedoc>typescript: '5'
