@@ -63,7 +63,7 @@ export const EServiceCatalog: React.FC<{
           <div className="p-3">
             {strapiCatalogContent.Links.SingleLink.map((singleLink) => (
               <a
-                key={singleLink.LinkURL}
+                key={singleLink.id}
                 data-mp-external-link-id={singleLink.MixpanelExternalLinkId}
                 data-mp-external-link-description={
                   singleLink.MixpanelExternalLinkDescription
